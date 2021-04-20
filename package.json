@@ -10,7 +10,6 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --config jest.coverage.js",
     "test:coverage:watch": "jest --watchAll --config jest.coverage.js",
-    "test:ci": "npm run test:coverage && codecov --disable=gcov",
     "lint": "eslint . --ext .ts",
     "doc": "typedoc --out docs src"
   },
